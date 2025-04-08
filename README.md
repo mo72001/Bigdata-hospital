@@ -27,7 +27,6 @@ This project explores and analyzes hospital admission data using both machine le
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Data Cleaning & Exploration](#data-cleaning--exploration)
 - [Model Results](#model-results)
   - [Machine Learning Model Results](#machine-learning-model-results)
   - [Deep Learning Model Results](#deep-learning-model-results).
