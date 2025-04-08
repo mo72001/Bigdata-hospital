@@ -2,7 +2,7 @@
 
 
 ## Description
-This project explores and analyzes hospital admission data using both machine learning (ML) and deep learning (DL) techniques. It involves data loading, cleaning, exploring, and visualizing key metrics from a large hospital dataset. Various data processing techniques are applied, including dealing with missing values, analyzing categorical columns, and summarizing statistics. The models were trained and evaluated using different algorithms to predict hospital admission types.
+This project explores and analyzes hospital admission data using both machine learning (ML) and deep learning (DL) techniques. It involves data loading, cleaning, exploring, and visualizing key metrics from a large hospital dataset. Various data processing techniques are applied, including dealing with missing values, analyzing categorical columns, and summarizing statistics. The models were trained and evaluated using different algorithms to predict hospital charges.
 
 ## Key Features
 - **Data Loading**: Supports loading data from both CSV files and MongoDB collections using PySpark and the MongoDB Spark connector.
@@ -120,4 +120,24 @@ This project explores and analyzes hospital admission data using both machine le
   Accuracy: 0.75
 
   AUC (Area Under Curve): 0.8320
+
+
+- **Decision Tree**:
+
+
+  Precision (Class 0): 0.75
+
+  Precision (Class 1): 0.74
+
+  Recall (Class 0): 0.73
+
+  Recall (Class 1): 0.76
+
+  F1-Score (Class 0): 0.74
+
+  F1-Score (Class 1): 0.75
+
+  Accuracy: 0.74
+
+  AUC (Area Under Curve): 0.7500
 
