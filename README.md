@@ -16,5 +16,4 @@ This project explores and analyzes hospital admission data using PySpark. It inv
 ## Installation
 1. Clone the repository:
       ```bash
-      [projectfile/Big_data_Hospital_by_pyspark.ipynb
-](https://github.com/mo72001/Bigdata-hospital/blob/main/projectfile/Big_data_Hospital_by_pyspark.ipynb
+      https://github.com/mo72001/Bigdata-hospital/blob/main/projectfile/Big_data_Hospital_by_pyspark.ipynb
