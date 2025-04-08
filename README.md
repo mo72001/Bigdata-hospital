@@ -84,3 +84,19 @@ This project explores and analyzes hospital admission data using both machine le
 ## Model Results
 
 ### ML Models
+- **Logistic Regression**:
+  Precision (Class 0): 0.77
+
+  Precision (Class 1): 0.69
+
+  Recall (Class 0): 0.64
+
+  Recall (Class 1): 0.80
+
+  F1-Score (Class 0): 0.70
+
+  F1-Score (Class 1): 0.74
+
+  Accuracy: 0.72
+
+  AUC (Area Under Curve): 0.8077
