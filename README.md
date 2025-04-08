@@ -30,8 +30,7 @@ This project explores and analyzes hospital admission data using both machine le
 - [Model Results](#model-results)
   - [Machine Learning Model Results](#machine-learning-model-results)
   - [Deep Learning Model Results](#deep-learning-model-results).
-- [Contributing](#contributing)
-- [License](#license)
+- [Contact](#contact)
 
 ## Installation
 1. Clone the repository:
