@@ -40,7 +40,6 @@ This project explores and analyzes hospital admission data using both machine le
       https://github.com/mo72001/Bigdata-hospital/blob/main/projectfile/Big_data_Hospital_by_pyspark.ipynb
 
 2.Install required libraries:
-      ```bash
          
          pip install pyspark seaborn matplotlib pandas tensorflow scikit-learn pymongo
 
