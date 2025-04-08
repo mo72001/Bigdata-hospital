@@ -4,7 +4,25 @@
 ## Description
 This project explores and analyzes hospital admission data using both machine learning (ML) and deep learning (DL) techniques. It involves data loading, cleaning, exploring, and visualizing key metrics from a large hospital dataset. Various data processing techniques are applied, including dealing with missing values, analyzing categorical columns, and summarizing statistics. The models were trained and evaluated using different algorithms to predict hospital admission types.
 
+## Key Features
+- **Data Loading**: Supports loading data from both CSV files and MongoDB collections using PySpark and the MongoDB Spark connector.
+- **Data Exploration**: Comprehensive data exploration with summary statistics, missing value detection, and categorical analysis.
+- **Model Evaluation**: Supports training and evaluating multiple models, including Logistic Regression, Random Forest, Decision Tree, and Deep Learning models.
+- **Visualization**: Includes visualizations such as confusion matrices and model performance metrics to interpret the results.
+- **Alternative Data Sources**: Flexibility to work with different data sources such as CSV files and MongoDB.
 
+## Technologies
+- **PySpark**: Used for data loading, exploration, and processing large-scale datasets.
+- **MongoDB**: Alternative data source for storing and accessing hospital admission data.
+- **Machine Learning**: Models such as Logistic Regression, Random Forest, and Decision Tree were used for classification tasks.
+- **Deep Learning**: Neural networks for deep learning-based predictions and model evaluation.
+- **Python Libraries**:
+  - **scikit-learn**: Used for traditional machine learning models and evaluation metrics.
+  - **TensorFlow**: Used for building and evaluating the deep learning model.
+  - **pandas**: For data manipulation and conversion between PySpark DataFrame and Pandas DataFrame.
+  - **matplotlib, seaborn**: For data visualization, including confusion matrix and performance metrics.
+  - **pymongo**: MongoDB connector for accessing data stored in MongoDB.
+  
 
 ## Table of Contents
 - [Installation](#installation)
