@@ -30,7 +30,6 @@ This project explores and analyzes hospital admission data using both machine le
 - [Model Results](#model-results)
   - [Machine Learning Model Results](#machine-learning-model-results)
   - [Deep Learning Model Results](#deep-learning-model-results).
-- [Contact](#contact)
 
 ## Installation
 1. Clone the repository:
@@ -163,6 +162,4 @@ This project explores and analyzes hospital admission data using both machine le
    AUC (Area Under Curve): 0.8379
 
 
-# Contact:
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Alrowais-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mohammed-alrowais-565563277/)
 
