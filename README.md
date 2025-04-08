@@ -2,7 +2,7 @@
 
 
 ## Description
-This project explores and analyzes hospital admission data using PySpark. It involves data loading, cleaning, exploring, and visualizing key metrics from a large hospital dataset. Various data processing techniques are applied, including dealing with missing values, analyzing categorical columns, and summarizing statistics.
+This project explores and analyzes hospital admission data using both machine learning (ML) and deep learning (DL) techniques. It involves data loading, cleaning, exploring, and visualizing key metrics from a large hospital dataset. Various data processing techniques are applied, including dealing with missing values, analyzing categorical columns, and summarizing statistics. The models were trained and evaluated using different algorithms to predict hospital admission types.
 
 
 
@@ -10,6 +10,9 @@ This project explores and analyzes hospital admission data using PySpark. It inv
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data Cleaning & Exploration](#data-cleaning--exploration)
+- [Model Results](#model-results)
+  - [Machine Learning Model Results](#machine-learning-model-results)
+  - [Deep Learning Model Results](#deep-learning-model-results).
 - [Contributing](#contributing)
 - [License](#license)
 
