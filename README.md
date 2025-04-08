@@ -83,7 +83,7 @@ This project explores and analyzes hospital admission data using both machine le
 
 ## Model Results
 
-### ML Models
+### Machine Learning Model Results
 - **Logistic Regression**:
 
   Precision (Class 0): 0.77
@@ -143,7 +143,7 @@ This project explores and analyzes hospital admission data using both machine le
 
 
 
-### DL Model
+### Deep Learning Model Results
 
   Precision (Class 0): 0.76
 
