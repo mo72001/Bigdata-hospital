@@ -62,3 +62,4 @@ This project explores and analyzes hospital admission data using both machine le
   df = spark.read.csv(file_path, header=True, inferSchema=True)
 
   
+# OR
