@@ -143,7 +143,9 @@ This project explores and analyzes hospital admission data using both machine le
 
 
 
-### Deep Learning Model Results
+### Deep Learning Model Results:
+
+- **Deep Learning**:
 
    Precision (Class 0): 0.76
 
