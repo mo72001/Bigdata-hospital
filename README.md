@@ -66,9 +66,9 @@ This project explores and analyzes hospital admission data using both machine le
   from pyspark.sql import SparkSession
 
   # MongoDB connection details
-  mongo_uri = "mongodb://localhost:27017"
-  mongo_database = "hospital_db"
-  mongo_collection = "admissions"
+  mongo_uri = ""
+  mongo_database = ""
+  mongo_collection = ""
 
   # Initialize the Spark session with MongoDB support
   spark = SparkSession.builder \
