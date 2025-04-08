@@ -161,3 +161,8 @@ This project explores and analyzes hospital admission data using both machine le
    Accuracy: 0.75
 
    AUC (Area Under Curve): 0.8379
+
+
+# Contact:
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Alrowais-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mohammed-alrowais-565563277/)
+
