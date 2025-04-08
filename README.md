@@ -38,3 +38,27 @@ This project explores and analyzes hospital admission data using both machine le
 1. Clone the repository:
       ```bash
       https://github.com/mo72001/Bigdata-hospital/blob/main/projectfile/Big_data_Hospital_by_pyspark.ipynb
+
+2.Install required libraries:
+      ```bash
+           
+        pip install pyspark seaborn matplotlib pandas tensorflow scikit-learn pymongo
+
+3. Data source:
+     ```bash
+     https://rowzero.io/datasets/ny-hospital-dataset?
+
+
+## Usage
+1.Loading the Hospital Admission Dataset:
+
+- Load the Dataset using PySpark (CSV file)"
+  ```bash
+   from pyspark.sql import SparkSession
+  spark = SparkSession.builder.appName("HospitalDataAnalysis").getOrCreate()
+
+  # Load dataset (replace with your actual file path)
+  file_path = "/path/to/your/dataset.csv"
+  df = spark.read.csv(file_path, header=True, inferSchema=True)
+
+  
