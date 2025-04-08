@@ -51,7 +51,7 @@ This project explores and analyzes hospital admission data using both machine le
 ## Usage
 1.Loading the Hospital Admission Dataset:
 
-- Load the Dataset using PySpark (CSV file)"
+- Load the Dataset using PySpark (CSV file):
   ```bash
    from pyspark.sql import SparkSession
   spark = SparkSession.builder.appName("HospitalDataAnalysis").getOrCreate()
@@ -62,3 +62,22 @@ This project explores and analyzes hospital admission data using both machine le
 
   
 ### OR
+- Load the Dataset from MongoDB:
+  ```bash
+  from pyspark.sql import SparkSession
+
+  # MongoDB connection details
+  mongo_uri = "mongodb://localhost:27017"
+  mongo_database = "hospital_db"
+  mongo_collection = "admissions"
+
+  # Initialize the Spark session with MongoDB support
+  spark = SparkSession.builder \
+    .appName("HospitalDataAnalysis") \
+    .config("spark.mongodb.input.uri", f"{mongo_uri}/{mongo_database}.{mongo_collection}") \
+    .config("spark.mongodb.output.uri", f"{mongo_uri}/{mongo_database}.{mongo_collection}") \
+    .getOrCreate()
+
+  # Load dataset from MongoDB collection
+  df = spark.read.format("mongo").option("uri", f"{mongo_uri}/{mongo_database}.{mongo_collection}").load()
+
