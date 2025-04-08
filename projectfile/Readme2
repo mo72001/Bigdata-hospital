@@ -1,8 +1,11 @@
 
-In this project, e developed models to predict whether a patient hospital charges would be high (greater than 20,000). The goal was to assist hospitals in identifying high-cost patients to help plan resources effectively. We used both machine learning (ML) and deep learning (DL) models to achieve this prediction.
+In this project, we developed models to predict whether a patient's hospital charges would be high (greater than 20,000). 
+The goal was to assist hospitals in identifying high-cost patients to help plan resources effectively. 
+We used both machine learning (ML) and deep learning (DL) models to achieve this prediction.
 
 Key Insights and Findings:
-Dataset: The dataset contained key features related to patient demographics, admission type, and charges. The target variable, HighCharges, was created by categorizing the Charges column as high (1) or low (0).
+Dataset: The dataset contained key features related to patient demographics, admission type, and charges. 
+The target variable, HighCharges, was created by categorizing the Charges column as high (1) or low (0).
 
 Data Exploration:
 
@@ -37,4 +40,5 @@ Model Comparison (AUC): A bar plot visually compares the AUC scores of the diffe
 Precision-Recall Trade-off: Insights into precision and recall balance revealed the trade-offs between correctly identifying high-charge patients and avoiding false positives.
 
 Conclusion:
-This project demonstrates that Random Forest and Logistic Regression are suitable models for predicting high hospital charges, offering hospitals a way to effectively allocate resources and manage financial risks. The deep learning model could be further optimized, but the simpler models showed excellent performance.
+This project demonstrates that Random Forest and Logistic Regression are suitable models for predicting high hospital charges, offering hospitals a way to effectively allocate resources and manage financial risks. 
+The deep learning model could be further optimized, but the simpler models showed excellent performance.
