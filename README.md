@@ -145,18 +145,18 @@ This project explores and analyzes hospital admission data using both machine le
 
 ### Deep Learning Model Results
 
-  Precision (Class 0): 0.76
+   Precision (Class 0): 0.76
 
-  Precision (Class 1): 0.74
+   Precision (Class 1): 0.74
 
-  Recall (Class 0): 0.73
+   Recall (Class 0): 0.73
 
-  Recall (Class 1): 0.77
+   Recall (Class 1): 0.77
 
-  F1-Score (Class 0): 0.74
+   F1-Score (Class 0): 0.74
 
-  F1-Score (Class 1): 0.75
+   F1-Score (Class 1): 0.75
 
-  Accuracy: 0.75
+   Accuracy: 0.75
 
-  AUC (Area Under Curve): 0.8379
+   AUC (Area Under Curve): 0.8379
