@@ -41,8 +41,8 @@ This project explores and analyzes hospital admission data using both machine le
 
 2.Install required libraries:
       ```bash
-           
-        pip install pyspark seaborn matplotlib pandas tensorflow scikit-learn pymongo
+         
+         pip install pyspark seaborn matplotlib pandas tensorflow scikit-learn pymongo
 
 3. Data source:
      ```bash
