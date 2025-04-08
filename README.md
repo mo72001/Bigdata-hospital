@@ -103,21 +103,21 @@ This project explores and analyzes hospital admission data using both machine le
   AUC (Area Under Curve): 0.8077
 
 
--**Random Forest**:
+- **Random Forest**:
 
- Precision (Class 0): 0.77
+  Precision (Class 0): 0.77
 
- Precision (Class 1): 0.73
+  Precision (Class 1): 0.73
 
- Recall (Class 0): 0.71
+  Recall (Class 0): 0.71
 
- Recall (Class 1): 0.79
+  Recall (Class 1): 0.79
 
- F1-Score (Class 0): 0.74
+  F1-Score (Class 0): 0.74
 
- F1-Score (Class 1): 0.76
+  F1-Score (Class 1): 0.76
 
- Accuracy: 0.75
+  Accuracy: 0.75
 
- AUC (Area Under Curve): 0.8320
+  AUC (Area Under Curve): 0.8320
 
