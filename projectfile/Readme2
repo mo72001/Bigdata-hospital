@@ -4,7 +4,8 @@ The goal was to assist hospitals in identifying high-cost patients to help plan 
 We used both machine learning (ML) and deep learning (DL) models to achieve this prediction.
 
 Key Insights and Findings:
-Dataset: The dataset contained key features related to patient demographics, admission type, and charges. 
+Dataset: 
+The dataset contained key features related to patient demographics, admission type, and charges. 
 The target variable, HighCharges, was created by categorizing the Charges column as high (1) or low (0).
 
 Data Exploration:
